@@ -25,5 +25,6 @@ def gradient_descent(alpha=0.01, eps=0.001):
 
 
 vars_min = gradient_descent()
+table.add_row(["", "min x", "min y", "f(min x, min y)"])
+table.add_row(["", vars_min[0], vars_min[1], f(vars_min)])
 print(table)
-print("min=", vars_min, f(vars_min))
